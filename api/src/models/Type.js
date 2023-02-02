@@ -5,6 +5,9 @@ module.exports = (sequelize) => {
     name: {
       type: DataTypes.STRING,
       allowNull: false,
-    }
+    },
+    }, {timestamps: true,
+        createdAt: 'Creado',
+        updatedAt: false
   });
 };

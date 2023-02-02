@@ -30,5 +30,8 @@ module.exports = (sequelize) => {
     peso: {
       type: DataTypes.FLOAT
     }
+    }, {timestamps: true,
+      createdAt: 'Creado',
+      updatedAt: false
   });
 };
